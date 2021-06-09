@@ -1,0 +1,9 @@
+flex:
+  version: 0.5.1
+  workflows:
+    build:
+      command: ./gradlew build
+    update-template:
+      command: battenberg upgrade --no-input
+service:
+  name: 'java-kotlin-lib-test-yCQGV'
